@@ -1,0 +1,160 @@
+body{
+    background-image: url(Login-background.png);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav{
+    background: linear-gradient(
+        135deg, 
+        rgba(255, 255, 255, 0.12),
+        rgba(255, 255, 255, 0.04)
+    );
+
+    backdrop-filter: blur(22px) saturate(140%);
+    -webkit-backdrop-filter: blur(22px) saturate(140%);
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.06);
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.title{
+    margin: 0px 100px 0px 0px;
+    font-size: 50px;
+}
+
+.search{
+    height: 40px;
+    width: 250px;
+    padding-left: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(196, 196, 196);
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.img-container2{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.img-container div{
+    color: white;
+    border: 1px solid rgb(157, 94, 202);
+    border-radius: 20px;
+    height: 370px;
+    width: 260px;
+    margin: 50px 30px 10px 30px;
+    padding: 10px;
+    background: linear-gradient(
+        135deg, 
+        rgba(255, 255, 255, 0.12),
+        rgba(255, 255, 255, 0.04)
+    );
+
+    backdrop-filter: blur(2px) saturate(140%);
+    -webkit-backdrop-filter: blur(22px) saturate(140%);
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.06);
+}
+
+.img-container2 div{
+    color: white;
+    border: 1px solid rgb(157, 94, 202);
+    border-radius: 20px;
+    height: 180px;
+    width: 160px;
+    margin: 30px 10px 10px 30px;
+    padding: 10px;
+    background: linear-gradient(
+        135deg, 
+        rgba(255, 255, 255, 0.12),
+        rgba(255, 255, 255, 0.04)
+    );
+
+    backdrop-filter: blur(2px) saturate(140%);
+    -webkit-backdrop-filter: blur(22px) saturate(140%);
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.06);
+}
+
+.img-container div img{
+    height: 200px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+.img-container2 div img{
+    height: 100px;
+    width: 160px;
+    border-radius: 20px;
+}
+
+.buy{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(83, 101, 255);
+    padding: 5px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 5px;
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.buy:hover{
+    background: linear-gradient(135deg, #5504ac, #0548bc);
+    transform: scale(1.02);
+}
+
+.cart{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(83, 101, 255);
+    padding: 5px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.cart:hover{
+    background: linear-gradient(135deg, #5504ac, #0548bc);
+    transform: scale(1.02);
+}
